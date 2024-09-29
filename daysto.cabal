@@ -1,0 +1,23 @@
+cabal-version:      3.0
+name:               daysto
+version:            0.1.0.0
+-- synopsis:
+-- description:
+license:            MIT
+license-file:       LICENSE
+author:             Sunil Pandey
+maintainer:         64631561+sunilbpandey@users.noreply.github.com
+-- copyright:
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable daysto
+    import:           warnings
+    main-is:          Main.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:    base ^>=4.17.2.1
+    hs-source-dirs:   daysto
+    default-language: Haskell2010
